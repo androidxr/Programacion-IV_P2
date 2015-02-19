@@ -1,0 +1,120 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         <div>
+             <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Personal</legend>
+                     	<label for="txtNombre">Nombre</label><br/>
+                    	 <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre"  />
+                    	 <br/>
+			
+                    	 <br/>
+		    	 <label for="txtApellidoPaterno">Apellido Paterno</label><br/>
+                    	<input type="text" size="40" maxlength="255" id="txtPaterno" name="paterno" />
+                    	 <br/> 
+
+  			<br/> 	
+			<label for="txtApellidoPaterno">Apellido Materno</label><br/>
+                     	<input type="text" size="40" maxlength="255" id="txtMaterno" name="Materno" />
+                         <br/>
+
+ 			<br/>
+			<label for="txt">Sexo</label><br/>
+			<input type="radio" name="Genero" id="radio_Masculino" value="Masculino" />
+			<label for="radio_Masculino">Masculino</label><br/>
+			<br/>
+			<input type="radio" name="Genero" id="radio_Femenino" value="Femenino" />
+			<label for="radio_Femenino">Femenino</label><br/>
+ 			<br/>
+                 </fieldset>
+
+		 <fieldset>
+		 <legend>Contacto</legend>
+			<label for="txtDomicilio">Domicilo</label><br/>
+                    	 <input type="text" size="40" maxlength="255" id="txtDomicilio"  />
+                    	 <br/>
+
+			<br/>
+			<label for="txtTelefono">Telefono</label><br/>
+                    	 <input type="text" size="40" maxlength="255" id="txtTelefono" />
+                    	 <br/>
+
+			<br/>
+			<label for="txtCelular">Celular</label><br/>
+                    	 <input type="text" size="40" maxlength="255" id="txtCelular" />
+                    	 <br/>
+
+			<br/>
+
+			
+			<label for="txtEstado">Estado</label><br/>
+				<select id="Estados" name = "Estedaos">
+					<option value = "0"></option>
+					<option value = "1">Aguascalientes</option>
+					<option value = "2">Baja California</option>
+					<option value = "3">Baja California Sur</option>
+					<option value = "4">Campeche</option>
+					<option value = "5">Coahuila de Zaragoza</option>
+					<option value = "6">Colima</option>
+					<option value = "7">Chiapas</option>
+					<option value = "8">Chihuahua</option>
+					<option value = "9">Distrito Federal</option>
+					<option value = "10">Durango</option>
+					<option value = "11">Guanajuato</option>
+					<option value = "12">Guerrero</option>
+					<option value = "13">Hidalgo</option>
+					<option value = "14">Jalisco</option>
+					<option value = "15">México</option>
+					<option value = "16">Michoacán de Ocampo</option>
+					<option value = "17">Morelos</option>
+					<option value = "18">Nayarit</option>
+					<option value = "19">Nuevo León</option>
+					<option value = "20">Oaxaca</option>
+					<option value = "21">Puebla</option>
+					<option value = "22">Querétaro</option>
+					<option value = "23">Quintana Roo</option>
+					<option value = "24">San Luis Potosí</option>
+					<option value = "25">Sinaloa</option>
+					<option value = "26">Sonora</option>
+					<option value = "27">Tabasco</option>
+					<option value = "28">Tamaulipas</option>
+					<option value = "29">Tlaxcala</option>
+					<option value = "30">Veracruz de Ignacio de la Llave</option>
+					<option value = "31">Yucatán</option>
+					<option value = "32">Zacatecas</option>
+					</select >
+				
+                    	 	<br/>
+		
+		 </fieldset>
+
+		<fieldset>
+		 <legend>Idioma</legend>
+
+			
+			<input type="checkbox" id="checkbox_Español" name="Espanol" />
+			<label for="checkbox_Español">Espanol</label><br/>
+
+			
+			<input type="checkbox" id="checkbox_Ingles"  name="Ingles"/>
+			<label for="checkbox_Ingles">Ingles</label><br/>
+			
+			
+			<input type="checkbox" id="checkbox_Aleman"  name="Aleman" />
+			<label for="checkbox_Aleman">Aleman</label><br/>
+
+		</fieldset>
+
+
+
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
